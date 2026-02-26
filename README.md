@@ -6,4 +6,3 @@ In this project I simulated the spread of an epidemic using the SIR model. The p
 ## Repository files
 
 - `SIR.ipynb` – Jupyter notebook.
-- `SIR.html` – HTML version of the notebook.
