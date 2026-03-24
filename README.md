@@ -5,9 +5,9 @@ This project is a simulation of the spread of an epidemic using the SIR (Suscept
 
 ### Mathematical Model
 The SIR model describes the time evolution of three compartments:
-- $ S(t) $: susceptible individuals
-- $ I(t) $: infected individuals
-- $ R(t) $: recovered individuals
+- $S(t)$: susceptible individuals
+- $I(t)$: infected individuals
+- $R(t)$: recovered individuals
 The dynamics are governed by:
 
 $$
@@ -23,9 +23,9 @@ $$
 $$
 
 where:
-- $ \beta $ = infection rate
-- $ \gamma $ = recovery rate
-- $ N = S + I + R $ = total population
+- $\beta$ = infection rate
+- $\gamma$ = recovery rate
+- $N = S + I + R$ = total population
 
 ### Sensitivity measure
 
@@ -33,7 +33,7 @@ Sensitivity is computed as:
 $$
 S_p = \left| \frac{Y(p + \Delta p) - Y(p)}{Y(p)} \cdot \frac{p}{\Delta p} \right|
 $$
-where $ Y $ is a model output.
+where $Y$ is a model output.
 
 ## Repository files
 
