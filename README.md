@@ -35,7 +35,7 @@ $$
 S_p = \left| \frac{Y(p + \Delta p) - Y(p)}{Y(p)} \cdot \frac{p}{\Delta p} \right|
 $$
 
-where $Y$ is a model output.
+where $Y$ is a model output and $p$ is a parameter.
 
 
 ## Repository files
