@@ -1,5 +1,6 @@
 # SIR epidemic model simulations
 
+
 ## Project description
 This project simulates the spread of an epidemic using the SIR (Susceptible-Infected-Recovered) model. The system of ordinary differential equations (ODEs) was solved numerically using a fourth-order Runge-Kutta integrator (RK4). A sensitivity analysis was performed varying the infection rate ( $\beta$ ) and the recovery rate ( $\gamma$ ).
 
@@ -28,8 +29,6 @@ where:
 - $\gamma$ = recovery rate
 - $N = S + I + R$ = total population
 
-### Sensitivity measure
-
 Sensitivity is computed as:
 
 $$
@@ -37,6 +36,7 @@ S_p = \left| \frac{Y(p + \Delta p) - Y(p)}{Y(p)} \cdot \frac{p}{\Delta p} \right
 $$
 
 where $Y$ is a model output.
+
 
 ## Repository files
 
